@@ -1,0 +1,34 @@
+{
+    "private": true,
+    "name": "test-service-worker-cache-mechanism",
+    "description": "",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "clear": "rm -rf dist/ coverage/ .nyc_output/",
+        "clear:all": "rm -rf node_modules/ && npm run clear",
+        "start": "http-server src/",
+        "dev": "http-server src/",
+        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r",
+        "lint": "eslint .",
+        "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d src/"
+    },
+    "dependencies": {
+        "http-server": "^0.11.1"
+    },
+    "devDependencies": {
+        "cross-env": "^5.2.0",
+        "eslint": "^5.11.0",
+        "eslint-config-piecioshka": "^2.0.1",
+        "gh-pages": "^2.0.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:piecioshka/test-service-worker-cache-mechanism.git"
+    }
+}
