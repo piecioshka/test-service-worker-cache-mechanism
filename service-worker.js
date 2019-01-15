@@ -7,8 +7,8 @@ console.log('Hello world');
 
 const CACHE_NAME = 'test-app';
 const CACHED_FILES = [
-    '/',
-    '/scripts/@not-used-file.js',
+    './',
+    './scripts/@not-used-file.js',
 ];
 
 // -----------------------------------------------------------------------------
