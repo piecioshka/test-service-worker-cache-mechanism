@@ -1,7 +1,5 @@
 # test-service-worker-cache-mechanism
 
-[![dependencies](https://david-dm.org/piecioshka/test-service-worker-cache-mechanism.svg)](https://github.com/piecioshka/test-service-worker-cache-mechanism)
-
 :ledger: Testing `Service Worker` with hybrid strategy
 
 ## Demo 🎉
