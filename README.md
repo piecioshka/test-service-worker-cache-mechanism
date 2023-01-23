@@ -2,7 +2,7 @@
 
 :ledger: Testing `Service Worker` with hybrid strategy
 
-## Demo 🎉
+## Preview 🎉
 
 <https://piecioshka.github.io/test-service-worker-cache-mechanism>
 
