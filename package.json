@@ -18,14 +18,12 @@
         "lint": "eslint .",
         "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d src/"
     },
-    "dependencies": {
-        "http-server": "^0.11.1"
-    },
     "devDependencies": {
         "cross-env": "^5.2.0",
         "eslint": "^5.11.0",
         "eslint-config-piecioshka": "^2.0.1",
-        "gh-pages": "^2.0.1"
+        "gh-pages": "^2.0.1",
+        "http-server": "^0.11.1"
     },
     "repository": {
         "type": "git",
